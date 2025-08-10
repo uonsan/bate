@@ -308,7 +308,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
           ), true);
         }
       };
-      let projectDecodeBuffer = new ArrayBuffer(1704);
+      let projectDecodeBuffer = new ArrayBuffer(1720);
       let projectDecodeIndex = 0;
       const decodeChunk = (size) => {
         try {
@@ -316,12 +316,12 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
           base85decode(document.currentScript.getAttribute("data"), projectDecodeBuffer, projectDecodeIndex);
           document.currentScript.remove();
           projectDecodeIndex += size;
-          setProgress(interpolate(0.1, 0.75, projectDecodeIndex / 1701));
+          setProgress(interpolate(0.1, 0.75, projectDecodeIndex / 1720));
         } catch (e) {
           handleError(e);
         }
       };
-      </script><script data="wC_B+4****2****G:7vk9H4^+Io.e/6rA+*b*DlNwLKzIUF*2OrT{:F3qhk@[K;dIKvHcE[][obrjzl5v7xLpb(P@VYO`]V7{:IAvDFz^Zl^7/qu`f^Xqh@mh*i@motP3;vwH4lXIasFB`W@[}~WBj)I\BvO0siqKifBV6\XHDpRJZ(@6(\mr7objL{UABnURTr,/bxj;NLX*^z\BKOF8G9xYdripp)kl=0K}8p993RoYyre~+b[jt;Jc{\7;VkZ()wzB64dx?By\oQZ1Ht\@N`@VpDLySA|[stuWgn*gNkwqstz.s8G2S[BtxRm`T9z[H]mH-)]TJ(^1)ve,{8Dqyp/{qj\ahnwOaH@8C.72RIAQ96rK{1h@R_4~Hhz1,|}T|:qjdt.8}suxRA0XYS)+?ZU0rqHK=N7|6FeP8U|EJDlA8{\ecnEQfy[D==~srW.Pk[TNNY^.LXS+z{^X.?L7C|)OQWI:xLo^Ylw{b-PhN.MO9+KJME*=,yLf_C=;p|ldotZ6Xm:Hv+vM:jz|K+TRo2Ti97:gvdeh(G\CIv6A(9?_POYnd9~69l5iY8h9Nu[0iH(\WHygbhD?Psy4L2s2s)@Q5RHi}Bhz3Oru:SyIFnCgjs1;kRpc/fSZaz64YyHSycbr.-r6YPf[^^q]g[SEr(i`)OGLIpYt_j3NMpiKCVEZAz}tcwx{dt?/J9jybQ6kRcoc66E}|l/@(YWM.NQeG|pCIbN:8)d2XXu4{.+L\TEolHc:(vEQm7K]vEeB83EK_2kLSZDGwbWVgAN[sobx7TCm[mM`EX,a{BVe+JFZX2m_6PDQRR9XW|V3s\@@FIZ6XDnY1Gp{7Y8X3oD|N.IQuA,TIcP:z:~`0Nmo7?dIb(j9^ht5I|Se)eH^AY2pr.;1eO^8TBBS9=i22FZmT`]psJ\y`29XN[zN5x~VrA)tC9u3Gp1hfK[F3,~PJI~Or:Rg)xSz5j{FT8vzc0ZRi\AhJRiZg?3b3xY}*`I[PBG(Y(vZAl?65hhZJ,|S~=Eqtt5Qo41]bY9:0oTPWcc,{;dv]G2IM:h(v@u6U^u,gc-PPK)bAB3yjA)dQKB2G(x.6Ll,n*ZgmGOMVicywpHwu6Iz_cZ`mqd,gU8hyt{hu9m:+DF|(c|8Niv}5q6kGQ]bMzu{D*t8Azdb7R`F|SbKL54xC7EDq5TxU=72lnMZ`gAYyk5aG2lc0AJa2a-qf,jAI0Br:P\k]skhiIC7s3y7zOFEAH2Dx2g7+bDC.=Q,J//Sklsq@gey9={fRwb-EYvG.|ix{/J+/aPM?dHWJEvPn0bV=6LQy:H?M(820Ro^y\)ng@ysJtK34{D[lB(Qz0K@U-EYa-5jbvO:tnEY/UzB[OosuC1OxS~q:aTsOx(f)CSDJuuBF(GFZeka[IcnV,]r5tiMktTf^n[OeEOJ]pnajH.B0Jq=Y]w1W(GADrgg7;@xd`YOqdrmg*PKhK0D,J\v0DtMkbgz^f6TgUm?^94=tBtTm@G4cFE=dL)\*+E[XmM`nyN-WI0K]{6@.0d:Qwl)Oyh?VHcX_2eoi,]xS~t/f-fI;ygz,3r7()i2]G8SD\}HF:[\6fvOU:q{;+5Ya30ITzy3NZr0)R]Mw.ZMO0j;f7W`0U?pH8LMsBfZfY//1jyn]-`g.~zylA9}2x56U;B;r/+*2Zr**r-OtD=Y3G*h+***J,***N****UB*o9~+Q;JId1o9l[PwJx^C5:y03Y98}vVJ\{T)ITGS?K)WT\.iuChpjUH1e.k=y:}C.SCbAo*B4BB{gZc+Joz^ntJ*6Vo2l7)(0aB?O?x1MgN[mxw0VFuebwl]O[`G4g4=Nf}SO/Q@(KH=^K45o@7`}H()y=BCkI7T/A-3w+\T4iIc\7ZEfUX3=yW6E(xr5vp3;H~pORNJn+XFve{3:9frdF_sHsk/dyE~YfC7D\N04H***2B***y)7H,W;*\+=Uc5eGApr-********************|m]oM|u\LOPbfoM5@HM*Jk:(-2rXZ,tre2]:26L/i;/**J71**NA+************Xtbl8=TZoI|s62;y**Y9*2lqJh=9_IFLbS9YdIVJ7`d@J{[-w8v{XqC+^`**,(``*cw`~V-E{{*0*********">decodeChunk(1701)</script>
+      </script><script data="wC_B+4****2****m-5+7vl.`+Xugo/6rA+*b*DlNwLKzIUF*2OrT{:F|phk@0v?dIKvHcEVO^objjzl5v7xLpb(P@VDP`]V7{:IAl{Ez^Zl^7/qu`f^Xqh@mh*i@motP3;1xH4lhyasFB`W@[}~WBj)I\BvVPL1Qu}+=C7O3EXI6wJlVHX(Y/qEj5_dNp88Zu7U6ogs6qe^9,oajt\)?cIg*5qsW\o5RR-[9\ObGV,tRmCRmB`s-A{dZPwgNmSHUjOEq@8TV_+U`4ibZ?u(ge5Z:[0?6(i9D9j{0sRa=|[`Cl7d?Ri|pz{^u0\z@8YUkc\Yn{IDQi9ax?zK^|GrVo@gFhic=r2P-Cbz1;h4@xG.ImQOF)ud5{K:y{Pxoe_8m8fuUfdzQst9+?)H=ezor=m2BF+`ooe-wOS)V5+z5NgB[AV?UtSd@4bgLwphAi6hlIOBAdAc]R_+7H[Jy4?SGfYdqWxe?W\pz0kFoM7R}967QF@yqY_D*=qv:y@KA@MnxAJkdVs{)bA+2bVo)JPtPVRq`v7^U(64AKLWKf3h[Q*N~Syha=)b/cVK9og5u(eo+hyq;,Q/ZlMnjdSRN:l/eN3`[=Qt-5{xIFuJPhMCI6(Lc87mwGt9/io4YcNsx+WnSww/h9y[*_JG+kmMcJlkiwtLA`;Fymu@N0i:,|Fq9x[iGdqcF[9\kz5lI=}bIuTvj0-;+\tzuwF0|4yVvLOaG4}.iq9E(dVz?_D]PH;3z)Lk]-X14H[UH(;ReKi]HID)SZNZ.DiQ`yC|IVA0-6`=G^C6PC}5SFt`FV6f+XgP?WB]+SvCzz6=\-a?@IDya3kqL3PHm@GxkL3-GT@l,S9|R-VB}a34b+y80:W8HS*bS6mXds4r/f*-w;wMXOy)~l_1(b4;8[x)YOP9Zp[YZ31kRee7cTD=_2YpWBsshtTWw?eDQv5KXBU.3Y?Ey,u:1S8=mKl8g_d[3IfY0[_B|`yk7|m5Vc7jZBh[q0W*M~T6Jd1uL+G`O(;[DPL{vQ0fYd.:Q(1Wc3+lrMxe}K2XM]_X*WFg*Rz,mv-]98};`Ib{Sca6*.65C1l6/,3]Hb_~Nzr.n^2f^~2ZGfF+Zg)N^hXE:=]D0T5Oiw=Mc`rO2/jtsn.eUXFj+,((q{5-,Z;x3wF(]}Ua]jo(q[516EHNFmnjel]DB8_5T,)h:WKR,NnM7k?1ZK~9tiEPpnKzI)D9z`9-\kv]HoNa]i;odTq~s~y[?D/NCOud~{Rxf[?\6@Y:z+BhJpWi{=DAN`B[ilTB=hV-3A,e]^GR\wq:-t@Oe8SJ`oMm_.uX=jCD2ub*V.OlGp12hI?sp]i_=r}L^*78RF(6b.y^efnr(qB3p?z9;0C]=2Tky7UZ_HA9gdfkYlA6=aFztNGL2C\Zes}~eb~36+:Ij,krY0]s9bV~[FE7|@mL./Q`u-}Hgs_DjbYwCn-9+AHpzFzGl~IrK*By3IXgRnt2|z9sq`]-Z/TXg9Z{`eW0[D:etLD1+8WFi:_}KE7g~FQ0|9;H3rm3lqS^;Z(:d04xt=Z.l?dc.7{`3YlDY1j8Q,BVk(6puW57?z@q0@aW^Bk:Sp103T|oC~tX])p9F5|)R?xO_v{(Xt4]||3.^6OUKkUuVtpOn_Kb[S0^PXhRH(hoXxN-\kd/*`,.tqy23qD5/:HlEMR?D^(sE4C3wHR~.+8H***2B***PxBoUH?~)YJMMxjNoRZ58TZoI|s62;y**Y9*2lqJh=9_IFLbS9YdIVJ7`d@J{[-w8)-n7MTXC4TaDfnQKErR,?OSMh6?mzlk]/VT[e2;a^Wh:GQ7Xt9{aS5o7Zg1^3H(djAt`i=K~inS3O=0d7eLRO*3OBYL1TwBI~eu@mo`tKg+@UwzoWy-jYp]DFF{m^}^DC]ccW6bVE]=`qfnCiuL-zrXgpc3TbDQrvYUy+VGL]++^0`__9SXBroIMBE_P;BAS5,*4****2****m-5+7vl.`+Xugo/6rA+*********************(6e;L@]1y8;]|SMszk`*Hf/+*2Zr**r-OtD=Y3G*h+***J,***N**************p4Wd+G]P@JIdCo9}Y/2;YYm@J6sO::Hdgk:3HIzIa\Z4(au^+ONAT;B5(***,6(**cvy8*F:@{+*****">decodeChunk(1720)</script>
 
     <script>
       const getProjectData = (function() {
@@ -352,7 +352,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
         return () => (() => {
         const buffer = projectDecodeBuffer;
         projectDecodeBuffer = null; // Allow GC
-        return Promise.resolve(new Uint8Array(buffer, 0, 1701));
+        return Promise.resolve(new Uint8Array(buffer, 0, 1720));
       })().then(async (data) => {
           zip = await Scaffolding.JSZip.loadAsync(data);
           const file = findFileInZip('project.json');
@@ -369,7 +369,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
       await scaffolding.loadProject(projectData);
       setProgress(1);
       loadingScreen.hidden = true;
-      if (false) {
+      if (true) {
         scaffolding.start();
       } else {
         launchScreen.hidden = false;
